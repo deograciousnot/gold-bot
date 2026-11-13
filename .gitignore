@@ -1,0 +1,7 @@
+# Price data is downloaded, not stored here (Dukascopy / MT5 / FRED terms)
+data/
+logs/
+STOP
+__pycache__/
+*.pyc
+.venv/
