@@ -32,7 +32,7 @@ Results are in **R**, where 1R is the amount risked on one trade.
 | Trend following (`backtest_trend.py`) | About break-even (PF 1.04), −39% worst drawdown |
 | News-triggered trades around NFP / FOMC (`fetch_events.py`) | No edge after costs |
 | 7 classic 1-minute scalps (`scalp.py`) | All lose about 100%. The best (+0.10R) before costs became −0.46R after the spread |
-| Inside-day breakout on 7 other markets (`multi_market.py`) | Didn't carry over: all markets together PF 0.96, t ≈ −1 |
+| Inside-day breakout on 7 other markets (`multi_market.py`) | Didn't carry over: 4,024 trades on all 7 together, PF 0.94, t = −1.5. Best were USD/JPY and oil (t ≈ 1.4-1.8), both negative in 2024-26 |
 | Real yields and dollar signals (`research_macro.py`) | No predictive edge |
 
 The lesson: a simple price-chart rule that clearly worked would be traded away by people with better data

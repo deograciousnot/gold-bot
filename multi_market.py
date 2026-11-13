@@ -39,7 +39,7 @@ MARKETS = {
     "USDJPY": ("USD/JPY", 0.015, (70, 200)),
     "LIGHTCMDUSD": ("US oil (WTI)", 0.04, (15, 200)),     # median price (oil briefly went negative in 2020)
     "USA500IDXUSD": ("S&P 500", 0.6, (500, 9000)),
-    "USATECHIDXUSD": ("Nasdaq 100", 1.5, (1000, 30000)),
+    "USATECHIDXUSD": ("Nasdaq 100", 1.5, (1500, 40000)),   # 1000 let a 10x-too-small divisor through
 }
 
 
